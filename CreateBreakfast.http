@@ -4,21 +4,23 @@ POST {{BuberBreakfast_HostAddress}}/breakfasts/
 Content-Type: application/json
 
 {
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything!",
+    "name": "Vegan Sunshine - Deluxe",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
     "savory": [
         "Oatmeal",
         "Avocado Toast",
         "Omelette",
-        "Salad"
+        "Salad",
+        "Celery"
     ],
     "Sweet": [
-        "Cookie"
+        "Cookie",
+        "Dates"
     ]
 }
 
 ###
 
-GET https://localhost:7094/Breakfasts/e35daaba-5a9e-43a2-9305-3dead8296fe0
+GET {{BuberBreakfast_HostAddress}}/Breakfasts/c2cb1f2d-7f8b-49a3-8c49-05f2c4102171

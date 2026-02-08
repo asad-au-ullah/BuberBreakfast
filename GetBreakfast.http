@@ -1,5 +1,5 @@
 @BuberBreakfast_HostAddress = http://localhost:5049
 
-@id=55373792-d079-431b-a5c1-2c527647f3c5
+@id=fba1c76b-6315-4cf0-b0d4-8443f6186b8e
 
 GET {{BuberBreakfast_HostAddress}}/breakfasts/{{id}}
