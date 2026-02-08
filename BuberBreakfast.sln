@@ -12,6 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{02EA681E-C
 		Api.md = Api.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{C21515E4-6535-4291-8511-DDCC35EFC38B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Breakfast", "Breakfast", "{27CD11E5-842C-48D9-9EE7-9B7A36F1556F}"
+	ProjectSection(SolutionItems) = preProject
+		CreateBreakfast.http = CreateBreakfast.http
+		DeleteBreakfast.http = DeleteBreakfast.http
+		GetBreakfast.http = GetBreakfast.http
+		UpsertBreakfast.http = UpsertBreakfast.http
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +39,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27CD11E5-842C-48D9-9EE7-9B7A36F1556F} = {C21515E4-6535-4291-8511-DDCC35EFC38B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A81FD2D-B616-4D4A-B8E4-A5420638D48E}
